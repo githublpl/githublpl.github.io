@@ -36,6 +36,7 @@ function startGenerator() {
     insertExWife();
     generateBody();
     // generateAge();
+	generateName();
     generateHair();
     generateEyes();
     generateAttribute();
@@ -44,7 +45,10 @@ function startGenerator() {
     generateSkin();
     saveWives();
 }
-
+function generateName() {
+    var text1 = document.getElementById("name");
+    text1.innerHTML = "丁丽华";   
+}
 function generateCup() {
     randomData("cupsize",Cupsize_data);
 }
@@ -55,11 +59,11 @@ function generateSkin() {
 
 function generateBody() {
     var height = normalDistribution(165, 5)
-    height = Math.round(height);
+    height = 163;
     var text1 = document.getElementById("height");
     text1.innerHTML=height;
     var bmi = normalDistribution(20, 1);
-    var weight = Math.round(bmi*(height/100)*(height/100));
+    var weight = 52 //Math.round(bmi*(height/100)*(height/100));
     var text2 = document.getElementById("weight");
     text2.innerHTML = weight;
 }
