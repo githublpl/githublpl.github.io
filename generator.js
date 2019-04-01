@@ -36,7 +36,7 @@ function startGenerator() {
     insertExWife();
     generateBody();
     // generateAge();
-	generateName();
+    generateName();
     generateHair();
     generateEyes();
     generateAttribute();
