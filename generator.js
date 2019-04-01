@@ -46,8 +46,8 @@ function startGenerator() {
     saveWives();
 }
 function generateName() {
-    var text1 = document.getElementById("name");
-    text1.innerHTML = "丁丽华";   
+    var textName = document.getElementById("name");
+    textName.innerHTML = "丁丽华";   
 }
 function generateCup() {
     randomData("cupsize",Cupsize_data);
@@ -58,8 +58,7 @@ function generateSkin() {
 }
 
 function generateBody() {
-    var height = normalDistribution(165, 5)
-    height = 163;
+    var height = 163;
     var text1 = document.getElementById("height");
     text1.innerHTML=height;
     var bmi = normalDistribution(20, 1);
