@@ -1,4 +1,3 @@
-# githublpl.github.io
 # 老婆生成器Random waifu generator 
 [网址](https://reed-chan.github.io/Random-waifu-generater/) 
 
@@ -6,4 +5,3 @@
 
 repository name里的英文都打错了，真jier丢人  
 但是不想改
-
